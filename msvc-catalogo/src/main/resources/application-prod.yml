@@ -1,0 +1,19 @@
+server:
+  port: 8003
+  servlet:
+    context-path: /msvc-catalogo
+
+spring:
+  application:
+    name: msvc-catalogo
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+  data:
+    mongodb:
+      database: app_catalogo
+      host: ec2-3-85-108-239.compute-1.amazonaws.com
+      port: 27017
+
+msvccatalogo:
+  app:
+    origin: http://ec2-3-85-108-239.compute-1.amazonaws.com:9001

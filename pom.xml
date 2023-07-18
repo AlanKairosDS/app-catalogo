@@ -13,6 +13,7 @@
     <modules>
         <module>jacoco-report-aggregate</module>
         <module>common-tools</module>
+        <module>msvc-catalogo</module>
     </modules>
 
     <parent>
