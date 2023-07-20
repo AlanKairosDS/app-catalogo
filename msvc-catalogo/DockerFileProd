@@ -4,6 +4,6 @@ WORKDIR /app
 
 COPY ./target/msvc-catalogo.jar .
 
-EXPOSE 8000
+EXPOSE 8003
 
 CMD ["java", "-Dspring.profiles.active=prod", "-jar", "msvc-catalogo.jar"]

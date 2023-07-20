@@ -11,9 +11,8 @@ spring:
   data:
     mongodb:
       database: app_catalogo_dev
-      uri: mongodb://alanroy:alanroy04@host.docker.internal:27018/app_catalogo_dev?authSource=admin
-      #host: host.docker.internal
-      #port: 27017
+      host: host.docker.internal
+      port: 27017
 
 msvccatalogo:
   app:
